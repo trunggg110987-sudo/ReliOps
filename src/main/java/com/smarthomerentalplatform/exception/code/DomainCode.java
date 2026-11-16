@@ -24,7 +24,6 @@ public enum DomainCode implements ErrorCode {
     UNAUTHORIZED("SHR-406", "Chưa xác thực."),
     USER_NOT_FOUND("SHR-503", "Không tìm thấy thông tin người dùng");
 
-
     private final String code;
     private final String message;
 
